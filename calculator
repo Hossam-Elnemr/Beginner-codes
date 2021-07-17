@@ -1,0 +1,10 @@
+while True:
+    x = eval(input("num_1: "))
+    o = input("op: ")
+    y = eval(input("num_2: "))
+    if o == "+":
+        print(x + y)
+    elif o == "-":
+        print(x - y)
+    else:
+        print("error \n")     
